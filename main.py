@@ -9,4 +9,4 @@ if __name__ == "__main__":
         from random_use import random_use
         how_many = int(input("請輸入數量："))
         start, end = map(int,input("請輸入範圍，並用'~'隔開：").split("~"))
-        print(random_use.random_int(how_many, start, end))
+        random_use.random_int(how_many, start, end)
