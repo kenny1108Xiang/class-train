@@ -12,7 +12,4 @@ if __name__ == "__main__":
         how_many = int(input("請輸入數量："))
         start, end = map(int,input("請輸入範圍，並用'~'隔開：").split("~"))
         random_use.random_int(how_many, start, end)
-        os.getcwd()
-        os.mkdir("random file")
-        os.chdir("./random file")
-        random_data =  open("random data.py","x")
+        print("done")
